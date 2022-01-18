@@ -22,6 +22,7 @@ services:
       - snapshots:/usr/share/elasticsearch/snapshots
     ports:
       - 9200:9200
+      - 9300:9300
     configs:
       - source: elastic_config
         target: /usr/share/elasticsearch/config/elasticsearch.yml
