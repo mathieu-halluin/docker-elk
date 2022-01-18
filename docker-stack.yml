@@ -69,4 +69,5 @@ configs:
 
 networks:
   elk:
-    driver: overlay
+    external:
+      name: elk

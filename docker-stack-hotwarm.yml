@@ -149,8 +149,8 @@ configs:
 
 networks:
   elk:
-    driver: overlay
-
+    external:
+      name: elk
 
 volumes:
   hot_data:
